@@ -1,0 +1,31 @@
+.nav {
+    list-style-type: none;
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #eb4124;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family:arial;
+    transition: background-color .3s;
+}
+
+li a:hover {
+    background-color: #c92d12;
+    color: white;
+}
+body{
+    background-color: white;
+}
